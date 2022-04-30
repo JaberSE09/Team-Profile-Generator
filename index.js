@@ -1,7 +1,6 @@
-const TeamProfile = require("./lib/TeamProfile")
+const TeamProfile = require("./lib/TeamProfile");
+const inquirer = require("inquirer");
 
-const input = new TeamProfile()
+const input = new TeamProfile();
 
-input.getManager().then(function(response){
-    console.log(response);
-})
+input.getInput();
