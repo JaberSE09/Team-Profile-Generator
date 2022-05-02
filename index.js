@@ -3,4 +3,4 @@ const inquirer = require("inquirer");
 
 const input = new TeamProfile();
 
-input.getInput();
+input.getTeam();

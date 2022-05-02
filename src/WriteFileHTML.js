@@ -1,15 +1,20 @@
-const managerHTML = (manager) =>{
-    return `
-    <div class "col-lg-3">
+class writeFileHTML {
 
-    <div class "card">
-    <div class= "card-header">
-    <h1>${manager.name}</h1>
-    <h3>Manager</h3>
-    </div>
-    </div>
-    </div>
-    `
+
+  getManager(team) {
+    let content = [];
+
+    for (let i = 0; i < team.length; i++) {
+      const role = team[i].getRole();
+      if (role === "Manager") {
+
+      }else if(role === "Intern"){
+        console.log(role);
+      }else if(role === "Engineer"){
+        console.log(role);
+      }
+
+    }
+  }
 }
-
-
+module.exports = writeFileHTML;
