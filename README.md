@@ -45,6 +45,13 @@ https://user-images.githubusercontent.com/15232220/166567043-f74329a6-e44e-496d-
 
 The Web App takes in a manager , choose to add engineers or interns to list
 
+Tests running
+
+
+https://user-images.githubusercontent.com/15232220/166568289-bc541ed4-e868-46d3-99ce-61274474e211.mp4
+
+
+
 email has to be in a valid format to be accepted
 the id or office number has to be a numberic charactor as well
 
