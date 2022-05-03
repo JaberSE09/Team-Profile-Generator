@@ -5,7 +5,7 @@ class writeFileHTML {
                 <div class="card h-100 border-dark border-left-0 border-top-0 shadow mb-3 bg-white">
                     <div class="card-header bg-info text-white">
                         <h3>${manager.name}</h3>
-                        <h4>Manager</h4>
+                        <h4><i class="fa-solid fa-mug-hot"></i>  Manager</h4>
                     </div>
                     <div class="card-body">
                         <p class="list-group-item">ID: ${manager.id}</p>
@@ -23,12 +23,12 @@ class writeFileHTML {
             <div class="card h-100 border-dark border-left-0 border-top-0 shadow mb-3 bg-white">
                 <div class="card-header bg-info text-white">
                     <h3>${engineer.name}</h3>
-                    <h4>Engineer</h4>
+                    <h4><i class="fa-solid fa-glasses"></i> Engineer</h4>
                 </div>
                 <div class="card-body">
                     <p class="list-group-item">ID: ${engineer.id}</p>
                     <p class="list-group-item">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                    <p class="list-group-item">Github: <a href="https://github.com/${engineer.GitHub}">${engineer.github}</a></p>
+                    <p class="list-group-item">Github: <a href="https://github.com/${engineer.GitHub}">${engineer.GitHub}</a></p>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@ class writeFileHTML {
             <div class="card h-100 border-dark border-left-0 border-top-0 shadow mb-3 bg-white">
                 <div class="card-header bg-info text-white">
                     <h3>${intern.name}</h3>
-                    <h4>Intern</h4>
+                    <h4><i class="fa-solid fa-user-graduate"></i> Intern</h4>
                 </div>
                 <div class="card-body">
                     <p class="list-group-item">ID: ${intern.id}</p>
@@ -78,7 +78,7 @@ class writeFileHTML {
 
   HTMLFile(content) {
     return `
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -86,6 +86,7 @@ class writeFileHTML {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Profile</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fba508aeb6.js" crossorigin="anonymous"></script>
 </head>
     <header>    
     <h1 class="text-center p-5 bg-danger text-white">My Team</h1>

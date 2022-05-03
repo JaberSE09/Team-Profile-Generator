@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/JaberSE09/Team-Profile-Generator#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "inquirer": "^8.2.2",
     "jest": "^27.5.1",
     "node": "^17.7.2"
