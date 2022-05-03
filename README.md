@@ -40,20 +40,16 @@ node index
 
 ## Usage
 
-
 https://user-images.githubusercontent.com/15232220/166567043-f74329a6-e44e-496d-92a7-c7931cf3f9f5.mp4
 
 The Web App takes in a manager , choose to add engineers or interns to list
 
 Tests running
 
-
 https://user-images.githubusercontent.com/15232220/166568289-bc541ed4-e868-46d3-99ce-61274474e211.mp4
 
-
-
 email has to be in a valid format to be accepted
-the id or office number has to be a numberic charactor as well
+the id or office number has to be a numeric characters as well
 
 ## Credits
 
