@@ -1,6 +1,6 @@
+//Gets the team profile class
 const TeamProfile = require("./lib/TeamProfile");
-const inquirer = require("inquirer");
-
+//createss the object
 const input = new TeamProfile();
-
+//runs the web app
 input.getTeam();

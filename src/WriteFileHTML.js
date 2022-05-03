@@ -1,4 +1,6 @@
+//write to file html layout
 class writeFileHTML {
+  //Generated the manager html
   getManagerHTML(manager) {
     return `
             <div class="col-2 mt-3 m-3">
@@ -16,7 +18,7 @@ class writeFileHTML {
                 </div>
             `;
   }
-
+//Engineer layout
   EngineerHTML(engineer) {
     return `
         <div class="col-2 mt-3 m-3">
@@ -54,6 +56,7 @@ class writeFileHTML {
         `;
   }
 
+  //puts the 3 functions together and returns the full html file
   getProfile(team) {
     let content = "";
 
