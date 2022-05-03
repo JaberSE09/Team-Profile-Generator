@@ -14,25 +14,27 @@ I learned the role objects can play through JavaScript and using them to create 
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Badges](#badge)
+- [Tests](#tests)
 
 ## Installation
 
 Run
 
-```
+```text
 git clone https://github.com/JaberSE09/Professional-README-Generator.git
 ```
 
 Then run
 
-```
+```text
 npm install
 ```
 
 in the directory
 To start the application run
 
-```
+```text
 node index
 ```
 
@@ -80,7 +82,7 @@ HTML File Generator
 
 run
 
-```
+```text
 npm test 
 ```
 
@@ -88,7 +90,7 @@ to run all the tests
 
 or run
 
-```
+```text
 npm test ["test file"]
 ```
 
